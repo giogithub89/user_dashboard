@@ -1,0 +1,10 @@
+.interestCard_icon {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+.interestCard:hover .interestCard_icon {
+  opacity: 1;
+  pointer-events: auto;
+  z-index: 99;
+}
